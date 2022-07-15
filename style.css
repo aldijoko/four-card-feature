@@ -1,0 +1,111 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    background-color: hsl(0, 0%, 98%);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+}
+
+.header {
+    margin: auto;
+    text-align: center;
+    max-width: 500px;
+    color: hsl(234, 12%, 34%);
+}
+
+.title {
+    font-weight: 200;
+    font-size: 30px;
+    margin: auto;
+}
+
+.subtitle {
+    font-size: 30px;
+    font-weight: 600;
+    margin: auto;
+}
+
+p{
+    color: hsl(229, 6%, 66%);
+}
+.card {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.card-center {
+    display: grid;
+    grid-row-gap: 2em;
+    justify-items: center;
+
+}
+
+.card-image {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+
+.card-supervisor {
+    /* position: absolute; */
+    margin-top: 140px;
+    max-width: 330px;
+    max-height: 240px;
+    background-color: white;
+    border-top: 3px solid hsl(180, 62%, 55%);
+    padding: 5px 30px ;
+    box-shadow: 6px 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-builder {
+    max-width: 330px;
+    background-color: white;
+    border-top: 3px solid hsl(0, 78%, 62%);
+    padding: 5px 30px ;
+    box-shadow: 6px 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-karma {
+    max-width: 330px;
+    background-color: white;
+    border-top: 3px solid hsl(34, 97%, 64%);
+    padding: 5px 30px ;
+    box-shadow: 6px 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-calcu {
+    max-width: 330px;
+    max-height: 240px;
+    margin-top: 140px;
+    background-color: white;
+    border-top: 3px solid hsl(212, 86%, 64%);
+    padding: 5px 30px ;
+    box-shadow: 6px 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media only screen and (max-width: 780px) {
+    .container {
+        width: 100%;
+    }
+
+    .card {
+        display: grid;
+        /* gap: 20px; */
+    }
+
+    /* .card-supervisor {
+        margin-top: 0;
+    } */
+
+    .card-calcu {
+        margin-top: 0;
+    }
+}
